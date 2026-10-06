@@ -1,0 +1,11 @@
+task_id,duration_h,deadline_h,priority,skill,depends_on,profit
+T1,4,24,3,backend,,300
+T2,6,32,2,frontend,T1,200
+T3,2,20,5,qa,T1,500
+T4,8,40,1,backend,,100
+T5,3,28,4,frontend,,400
+T6,5,36,3,qa,T2|T5,350
+T7,2,18,5,backend,,550
+T8,4,44,2,frontend,T4,250
+T9,3,30,4,qa,T7,420
+T10,6,48,1,backend,T6,150

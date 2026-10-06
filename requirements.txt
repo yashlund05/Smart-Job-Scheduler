@@ -1,0 +1,22 @@
+# Task Scheduler Optimization System
+# Core dependencies (all standard library except optional ones)
+
+# Required — standard library only (no pip install needed for core)
+# csv, heapq, collections, bisect, dataclasses, argparse, os, json, datetime
+
+# Optional: for FastAPI web server (advanced)
+# fastapi>=0.104.0
+# uvicorn>=0.24.0
+# pydantic>=2.0.0
+
+# Optional: for CP-SAT solver (advanced — Intermediate/Advanced track)
+# ortools>=9.7.2996
+
+# Optional: for high-resolution chart plotting (--plot)
+# matplotlib>=3.5.0
+
+# Optional: for test runner
+# pytest>=7.4.0
+
+# Python version
+# python >= 3.9
