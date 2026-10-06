@@ -1,0 +1,39 @@
+============================================================
+  TASK SCHEDULER OPTIMIZATION SYSTEM - PERFORMANCE REPORT
+============================================================
+  Algorithm : Dynamic Programming (Weighted Job Scheduling)
+  Generated : 2026-10-06 11:07:03
+============================================================
+
+  SUMMARY STATISTICS
+------------------------------------------------------------
+  Total Tasks      : 10
+  Scheduled        : 6
+  On Time          : 6  (60.0%)
+  Late             : 0
+  Missed           : 4
+  Total Profit     : 2200
+  Total Lateness   : 0h
+  Makespan         : 21h
+
+  OPTIMIZED SCHEDULE
+------------------------------------------------------------
+  Task     Res    Start    End    Ddl   Late Status    
+  -------------------------------------------------------
+  T5       R2         0      3     28      0h  OK        
+  T7       R1         0      2     18      0h  OK        
+  T3       R1         4      6     20      0h  OK        
+  T8       R3         8     12     44      0h  OK        
+  T6       R1        10     15     36      0h  OK        
+  T10      R1        15     21     48      0h  OK        
+
+  MISSED TASKS (could not be scheduled)
+------------------------------------------------------------
+  T1       priority=3 deadline=24h
+  T2       priority=2 deadline=32h
+  T4       priority=1 deadline=40h
+  T9       priority=4 deadline=30h
+
+============================================================
+  END OF REPORT
+============================================================

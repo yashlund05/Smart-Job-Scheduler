@@ -1,0 +1,11 @@
+Task ID,Priority,Skill,Deadline (h),Duration (h),Profit,Start (h),End (h),Assigned Resource,Lateness (h),Status
+T1,3,backend,24,4,300,N/A,N/A,N/A,N/A,MISSED
+T2,2,frontend,32,6,200,N/A,N/A,N/A,N/A,MISSED
+T3,5,qa,20,2,500,4,6,R1,0,ON TIME
+T4,1,backend,40,8,100,N/A,N/A,N/A,N/A,MISSED
+T5,4,frontend,28,3,400,0,3,R2,0,ON TIME
+T6,3,qa,36,5,350,10,15,R1,0,ON TIME
+T7,5,backend,18,2,550,0,2,R1,0,ON TIME
+T8,2,frontend,44,4,250,8,12,R3,0,ON TIME
+T9,4,qa,30,3,420,N/A,N/A,N/A,N/A,MISSED
+T10,1,backend,48,6,150,15,21,R1,0,ON TIME

@@ -1,0 +1,17 @@
+==========================================================================================
+  SMART JOB SCHEDULER — ALGORITHM COMPARISON REPORT
+  Greedy vs Dynamic Programming vs Backtracking
+==========================================================================================
+  Algorithm                             OnTime%  Profit   Late  Miss  Time(ms) Time Complexity   
+  ----------------------------------------------------------------------------------------
+  Greedy (Priority + EDF + Topo-Sort)     70.0%    2470    25h     1    0.09ms O(N log N + N*M)  
+  Dynamic Programming (Weighted Job S     60.0%    2200     0h     4    0.15ms O(M * N log N)    
+  Backtracking (Recursive Branch & Bo     80.0%    2720     0h     2    2.83ms O((M+1)^N) worst-case
+
+  SUMMARY & WINNERS
+------------------------------------------------------------------------------------------
+  Best Profit    : Backtracking (Recursive Branch & Bound)
+  Best On-Time   : Backtracking (Recursive Branch & Bound)
+  Least Lateness : Dynamic Programming (Weighted Job Scheduling)
+  Fastest Exec   : Greedy (Priority + EDF + Topo-Sort)
+==========================================================================================

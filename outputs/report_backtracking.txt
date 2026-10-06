@@ -1,0 +1,39 @@
+============================================================
+  TASK SCHEDULER OPTIMIZATION SYSTEM - PERFORMANCE REPORT
+============================================================
+  Algorithm : Backtracking (Recursive Branch & Bound)
+  Generated : 2026-10-06 11:07:03
+============================================================
+
+  SUMMARY STATISTICS
+------------------------------------------------------------
+  Total Tasks      : 10
+  Scheduled        : 8
+  On Time          : 8  (80.0%)
+  Late             : 0
+  Missed           : 2
+  Total Profit     : 2720
+  Total Lateness   : 0h
+  Makespan         : 30h
+
+  OPTIMIZED SCHEDULE
+------------------------------------------------------------
+  Task     Res    Start    End    Ddl   Late Status    
+  -------------------------------------------------------
+  T4       R3         0      8     40      0h  OK        
+  T5       R2         0      3     28      0h  OK        
+  T7       R1         0      2     18      0h  OK        
+  T1       R1         2      6     24      0h  OK        
+  T3       R1         6      8     20      0h  OK        
+  T2       R2        24     30     32      0h  OK        
+  T8       R3        24     28     44      0h  OK        
+  T9       R1        24     27     30      0h  OK        
+
+  MISSED TASKS (could not be scheduled)
+------------------------------------------------------------
+  T6       priority=3 deadline=36h
+  T10      priority=1 deadline=48h
+
+============================================================
+  END OF REPORT
+============================================================

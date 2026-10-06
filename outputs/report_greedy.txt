@@ -1,0 +1,39 @@
+============================================================
+  TASK SCHEDULER OPTIMIZATION SYSTEM - PERFORMANCE REPORT
+============================================================
+  Algorithm : Greedy (Priority + EDF + Topo-Sort)
+  Generated : 2026-10-06 11:07:03
+============================================================
+
+  SUMMARY STATISTICS
+------------------------------------------------------------
+  Total Tasks      : 10
+  Scheduled        : 9
+  On Time          : 7  (70.0%)
+  Late             : 2
+  Missed           : 1
+  Total Profit     : 2470
+  Total Lateness   : 25h
+  Makespan         : 53h
+
+  OPTIMIZED SCHEDULE
+------------------------------------------------------------
+  Task     Res    Start    End    Ddl   Late Status    
+  -------------------------------------------------------
+  T7       R1         0      2     18      0h  OK        
+  T5       R2         0      3     28      0h  OK        
+  T1       R3         0      4     24      0h  OK        
+  T9       R1         2      5     30      0h  OK        
+  T3       R1         5      7     20      0h  OK        
+  T2       R2        24     30     32      0h  OK        
+  T4       R3        24     32     40      0h  OK        
+  T6       R1        48     53     36     17h  LATE      
+  T8       R2        48     52     44      8h  LATE      
+
+  MISSED TASKS (could not be scheduled)
+------------------------------------------------------------
+  T10      priority=1 deadline=48h
+
+============================================================
+  END OF REPORT
+============================================================
